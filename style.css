@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.select-box {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+.recommend-button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.recommendations .item {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+.recommendations .item img {
+    max-width: 100%;
+    height: auto;
+}
